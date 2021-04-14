@@ -14,7 +14,7 @@ function createFireDataStructure() {
 function calculateFirePropagation() {
 
 }
-function renderFire{
+function renderFire(){
 
 }
 start()
