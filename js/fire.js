@@ -28,6 +28,6 @@ function renderFire() {
         html += '</tr>'
     }
     html += '</table>'
-    document.querySelector('#fireCanvas').innerHTML= innerHTML
+    document.querySelector('#fireCanvas').innerHTML= HTML
 }
 start()
