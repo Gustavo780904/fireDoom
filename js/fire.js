@@ -25,8 +25,8 @@ function renderFire() {
             const fireIntensity = firePixelsArray[pixelIndex]
 
             html += '<td>'
-            html += '<div class="pixel-index">${pixelIndex}</div>'
-            html += fireIntensity //acesa ainensidade do fogo
+            html += `c<div class="pixel-index">${pixelIndex}</div>`
+            html += fireIntensity //acesa a inensidade do fogo
             html += '</td>'
         }
         html += '</tr>'
