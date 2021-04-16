@@ -39,7 +39,7 @@ function createFireSource() {
         const overflowPixelIndex = fireWidth * fireWidth
         const pixelIndex = (overflowPixelIndex - fireWidth) + column
 
-        firePixelsArray[pixelIndex] =36
+        firePixelsArray[pixelIndex] = 36
     }
 }
 start()
