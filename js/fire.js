@@ -3,7 +3,7 @@ const fireWidth = 10
 const fireHeight = 10
 function start() {
     createFireDataStructure()
-renderFire()
+    renderFire()
 }
 function createFireDataStructure() {
     const numberOfPixels = fireWidth * fireHeight
@@ -22,7 +22,7 @@ function renderFire() {
         for (let column = 0; column < fireWidth; column++) {
            const pixelIndex = column + (fireWidth*row) //posicao horizontal + posicao vertical
             html += '<td>'
-           html +=pixelIndex
+            html +=pixelIndex
             html += '</td>'
         }
         html += '</tr>'
